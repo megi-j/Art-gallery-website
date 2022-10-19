@@ -2,7 +2,6 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    border: 2px solid green;
 }
 .first-section {
     width: 100%;
@@ -75,6 +74,7 @@
     width: 80%;
     margin: 0 auto;
     margin-top: 180px;
+    margin-bottom: 180px;
     
 }
 .info-photo{
@@ -139,4 +139,33 @@
 }
 .black-bg p {
     font-size: 22px;
+}
+footer {
+    width: 100%;
+    height: 244px;
+    background-color: #151515;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+.logo {
+    width: 160px;
+    height: 58px;
+}
+.logo img {
+    width: 100%;
+}
+.footer-info {
+    width: 430px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.social-icons {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
