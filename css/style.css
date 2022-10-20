@@ -83,20 +83,28 @@
     letter-spacing: 3.63636px;
 }
 .link div:first-child {
-    background-color: black;
+    background-color:#151515;
     width: 204px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
-.link div:nth-child(2) {
+.link div:first-child:hover {
+    background-color: #D5966C;
+}
+.link div:first-child:hover + .link-img{
+    background-color: #151515;
+}
+.link-img {
     width: 56px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #D5966C;
+    
 }
 
 .second-section{
@@ -214,3 +222,12 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+.social-icons a {
+    width: 20px;
+    height: 20px;
+}
+
+
+.social-icons path:hover {
+    fill: #D5966C;
+} 
