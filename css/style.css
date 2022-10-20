@@ -26,8 +26,6 @@
     height: 100%;
 }
 .black-div h1:first-child {
-    /* width: 514px; */
-    /* height: 176px; */
     color: #fff;
     mix-blend-mode: difference;
     font-size: 96px;
