@@ -1,7 +1,6 @@
 @media(max-width: 768px){
     .black-div {
-        display: none;
-        
+        display: none;  
     }
     .image-div {
         width: 55%;
@@ -23,7 +22,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-
     }
     .title h1{
         color: #151515;
@@ -95,7 +93,6 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
-    
     }
     .title h1 {
         font-size: 60px;
@@ -127,7 +124,6 @@
     .photo-black-div, .black-bg {
         margin-top: 16px;
     }
-    
     footer {
         height: 336px;
         flex-direction: column;
